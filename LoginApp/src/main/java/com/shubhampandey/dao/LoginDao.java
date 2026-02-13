@@ -5,9 +5,9 @@ import java.sql.*;
 public class LoginDao {
 	
 	public boolean checkCredential(String uname, String pass) {
-		String url = "jdbc:mysql://localhost:3306/DEMO";
+		String url = "jdbc:mysql://localhost:3306/DB_NAME";
 		String username = "root";
-		String password = "Mysql@2026";
+		String password = "YOUR_PASSWORD";
 		
 		String query = "Select * from login where uname = ? and password = ?";
 		try {
