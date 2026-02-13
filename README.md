@@ -27,6 +27,21 @@ This project demonstrates MVC architecture, DAO pattern implementation, and sess
 
 ---
 
+## Project Structure
+
+src/main/java  
+&nbsp;&nbsp;&nbsp;&nbsp;├── controller  
+&nbsp;&nbsp;&nbsp;&nbsp;├── dao  
+&nbsp;&nbsp;&nbsp;&nbsp;└── model  
+
+src/main/webapp  
+&nbsp;&nbsp;&nbsp;&nbsp;├── login.jsp  
+&nbsp;&nbsp;&nbsp;&nbsp;├── welcome.jsp  
+&nbsp;&nbsp;&nbsp;&nbsp;└── videos.jsp  
+
+---
+
+
 ## How to Run
 
 1. Clone the repository  
